@@ -16,13 +16,13 @@ function setup(){
 
     //create 4 different surfaces
     surface1=createSprite(500,400,50,20);
-    surface1.shapeColour("orange");
-    surface2=createsprite(200,100,50,20);
-    surface2.shapeColour("green");
+    surface1.shapeColor("orange");
+    surface2=createSprite(200,100,50,20);
+    surface2.shapeColor("green");
     surface3=createSprite(50,500,50,20);
-    surface3.shapeColour("blue");
+    surface3.shapeColor("blue");
     surface4=createSprite(50,200,50,20);
-    surface4.shapeColour("pink");
+    surface4.shapeColor("pink");
 
 
 
@@ -35,7 +35,7 @@ function setup(){
 function draw() {
     background(rgb(169,169,169));
     //create edgeSprite
-    edges=createEdgesSprites();
+    edges=createEdgeSprites();
 
 
 
